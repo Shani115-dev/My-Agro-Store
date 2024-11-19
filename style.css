@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+.product-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.log{
+    border-radius: 50%;
+}
+.product-card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+.product-card .button {
+    background-color: #ff6600;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: .5rem;
+}
+
+.font-great-vibes {
+    font-family: 'Great Vibes', cursive;
+}
+.font-pacifico{
+    font-family: 'Great Vibes', cursive;
+}
+h1{
+    font-family: 'Great Vibes', cursive;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+ nav a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: green;
+}
+.testimonial-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    min-height: 90vh;
+}
+.testimonial-section h2 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.testimonial-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.testimonial-section .author {
+    font-weight: bold;
+    font-size: 20px;
+}
+.testimonial-section .quote-icon {
+    font-size: 24px;
+    color: #ff6600;
+}
+.testimonial-section .carousel-indicators [data-bs-target] {
+    background-color: #333;
+}
+.testimonial{
+    background-image: url("https://storage.googleapis.com/a1aa/image/iF2ZGf8w7qXUESJ9Wc7reffTvnuxIGIRi3CL6IyxeFJMHKJeE.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 3rem;
+  
+}
+.contact-form {
+    width: 60%;
+    text-align: center;
+}
+.contact-form h1 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px;
+}
+.form-control {
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.btn-submit {
+    background-color: #ff5722;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: none;
+}
+.form_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+.footer-section {
+    padding: 20px;
+}
+.footer-section h5 {
+    font-weight: bold;
+}
+.footer-section a {
+    color: #333;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.footer-section .more-link {
+    color: #d35400;
+}
+.footer-section .contact-info {
+    line-height: 1.6;
+}
+.footer-section .social-icons a {
+    color: #333;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.agriculture_wrapper .card-img{
+    border-radius: .9321rem  ;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.agriculture_wrapper .card-img:hover{
+    transform: scale(1.1);
+}
+
+
+.agriculture_wrapper p{
+    font-weight: 800;
+    font-size: 1rem;
+} 
+
+.product-wrapper{
+    margin-top:2rem;
+    margin-bottom:4rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.product-wrapper .product-title{
+    margin-bottom: 3rem;
+
+}
+
+.gallery_wrapper h1{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.video_wrapper h1{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.testimonial-heading{
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.carousel-inner .carousel-item img {
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    width: 200px; /* Set your desired width */
+    height: 200px; /* Set the same height for a perfect circle */
+    border-radius: 50%; /* This creates the circular shape */
+    overflow: hidden; /* Ensures the image fits within the circle */
+    object-fit: cover; /* Ensures the image covers the circle evenly */
+    border: 5px solid linear-gradient(45deg, rgba(255, 165, 0, 1), rgba(255, 140, 0, 1)); /* Optional: Add a border around the circle */
+}
+
+.testimonial .testimonialCarousel{
+    padding: 50px 50px 0 0 ;
+}
+.testimonial .carousel-control-prev-icon{
+    background-color: #e2623b;
+    border-radius: 50%;
+    padding: 2rem;
+    display: none;
+}
+.testimonial .carousel-control-next-icon{
+    background-color: #e2623b;
+    border-radius: 50%;
+    padding: 2rem;
+    display: none;
+}
+input:focus, textarea:focus {
+    border-color: #fb5607; /* Change border color to green */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 2px #fb5607; /* Even softer orange glow */
+
+
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  /* form styling */
+  .form-group {
+    position: relative;
+    
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+.form-group textarea {
+    height: 150px;
+    resize: none;
+}
+.form-group label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 16px;
+    color: #aaa;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    background-color: #fff;
+    padding: 0 7px ;
+    padding-bottom: 5px;
+   
+}
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    color: #ff5722;
+}
+.form-group input:focus,
+.form-group input:not(:placeholder-shown),
+.form-group textarea:focus,
+.form-group textarea:not(:placeholder-shown) {
+    border-color: #ff5722;
+}

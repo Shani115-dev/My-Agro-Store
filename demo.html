@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing Orange Gradient</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, rgba(255, 165, 0, 1), rgba(255, 140, 0, 1));
+            background-size: 200% 200%;
+            animation: glow 2s ease-in-out infinite;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 3rem;
+        }
+
+        @keyframes glow {
+            0% {
+                background-position: 200% 0;
+            }
+            50% {
+                background-position: 0 100%;
+            }
+            100% {
+                background-position: 200% 0;
+            }
+        }
+
+        .glow {
+            text-shadow: 0 0 10px rgba(255, 165, 0, 0.8), 0 0 20px rgba(255, 165, 0, 0.6), 0 0 30px rgba(255, 165, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="glow">
+        Welcome to the Glowing Orange Effect!
+    </div>
+</body>
+</html>
