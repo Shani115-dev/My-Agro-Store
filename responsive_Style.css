@@ -171,5 +171,7 @@
     .header_wrapper span{
         font-size: 1rem;
     }
-
+  .header_wrapper .desc{
+        margin-top: 4rem;
+    }
 }
