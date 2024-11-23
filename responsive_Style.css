@@ -106,21 +106,29 @@
     .nav-links {
         display: none; /* Initially hidden */
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
         position: absolute;
-        top: 60px;
+        top: 70px;
         right: 10px;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(24, 248, 42, 0.9);
         padding: 15px 20px;
         border-radius: 8px;
         z-index: 10;
         width: calc(100% - 20px);
-        max-width: 300px;
+        max-width: 200px;
         text-align: left;
+        max-height: fit-content;
+
     }
     .header_wrapper span{
         font-size: 1.5rem;
     }
+    .testimonial-section {
+        text-align: center;
+        padding: 100px 20px;
+        background: rgba(255, 255, 255, 0.8);
+        min-height: 60vh;
+      }
 
     .nav-links.active {
         display: flex; /* Show when the hamburger is clicked */
@@ -152,6 +160,7 @@
         width:80%;
         height: 70%;
     }
+    
     .agriculture_wrapper .card-img:hover{
         transform: scale(1.1);
     }
@@ -161,6 +170,15 @@
     .form_wrapper {
         margin-top: 8rem;
     }
+    .header_wrapper .log{
+        display: flex;
+        left: 0;
+        margin-left: -1rem;
+    }
+    .header_wrapper span{
+        font-size: 1rem;
+    }
+
 }
 @media(max-width:576px){
     .header_wrapper .log{
@@ -194,6 +212,57 @@
         margin-left: 8.232rem;
         margin-bottom: 2rem;
       }
+      .testimonial .testimonialCarousel {
+        padding: 20px 20px 0 0;
+      }
+      .testimonial .carousel-control-prev-icon {
+        background-color: #e2623b;
+        border-radius: 50%;
+        padding: 2rem;
+        display: none;
+      }
+      .testimonial .carousel-control-next-icon {
+        background-color: #e2623b;
+        border-radius: 50%;
+        padding: 2rem;
+        display: none;
+      }
+      .testimonial-section {
+        text-align: center;
+        padding: 100px 20px;
+        background: rgba(255, 255, 255, 0.8);
+        min-height: 60vh;
+      }
+      .testimonial-section h2 {
+        font-family: "Cursive", sans-serif;
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      .testimonial-section p {
+        font-size: 15px;
+        margin-bottom: 3rem;
+      }
+      .testimonial-section .author {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .testimonial-section .quote-icon {
+        font-size: 24px;
+        color: #ff6600;
+      }
+      .testimonial-section .carousel-indicators [data-bs-target] {
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+      .carousel-inner .carousel-item img {
+        margin-left: .6rem;
+        margin-bottom: 1rem;
+        width: 80px; /* Set your desired width */
+        height: 70px; /* Set the same height for a perfect circle */
+        border-radius: 50%; /* This creates the circular shape */
+        overflow: hidden; /* Ensures the image fits within the circle */
+        object-fit: cover; /* Ensures the image covers the circle evenly */
+        border: 5px solid orange;
+      }
 }
 @media(max-width:400px){
     .product-card img {
@@ -201,5 +270,11 @@
         width: 200px;
         margin-left: 5.232rem;
         margin-bottom: 2rem;
+      }
+      .form_wrapper{
+        margin-top:2rem;
+      }
+      footer{
+        margin-top: 2rem;
       }
 }
