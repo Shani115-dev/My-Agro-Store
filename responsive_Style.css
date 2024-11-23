@@ -162,3 +162,14 @@
         margin-top: 8rem;
     }
 }
+@media(max-width:575px){
+    .header_wrapper .log{
+        display: flex;
+        left: 0;
+        margin-left: -1rem;
+    }
+    .header_wrapper span{
+        font-size: 1rem;
+    }
+
+}
