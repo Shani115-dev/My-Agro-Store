@@ -134,8 +134,10 @@
     animation: fadeIn 0.3s ease-in-out;
   }
   .gallery_wrapper .row img{
-    height:400px;
+   height: 200px;
+   width:256px;
     margin-top: 2.4rem;
+    margin-left: 7.5rem;
   }
 
   /* header .background-img{
@@ -285,6 +287,13 @@
   .header_wrapper .btn{
     padding: 3px 8px 3px 8px;
   }
+  
+  .gallery_wrapper .row img{
+    height: 200px;
+    width:256px;
+     margin-top: 2.4rem;
+     margin-left: .5rem;
+   }
 }
 @media (max-width: 360px) {
   .product-card img {
@@ -347,4 +356,5 @@
   .header_wrapper .btn{
     padding: 3px 8px 3px 8px;
   }
+
 }
