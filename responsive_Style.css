@@ -356,5 +356,11 @@
   .header_wrapper .btn{
     padding: 3px 8px 3px 8px;
   }
+   .gallery_wrapper .row img{
+    height: 200px;
+    width:256px;
+     margin-top: 2.4rem;
+     margin-left: 4.5rem;
+   }
 
 }
