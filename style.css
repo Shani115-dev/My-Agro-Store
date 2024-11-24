@@ -42,6 +42,28 @@
   .nav-links a:hover {
     color: #00ff00;
   }
+/* Pseudo-element for the sliding line */
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    margin-top:3px;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 1), rgba(0, 255, 0, 0.8));
+    box-shadow: 0 0 15px rgba(0, 255, 0, 1), 0 0 30px rgba(0, 255, 0, 0.9), 0 0 45px rgba(0, 255, 0, 0.8);
+    transition: width 0.2s ease-in-out;
+}
+
+/* Expand the line and change text color on hover */
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.nav-links a:hover {
+    color: #00ff00; /* Bright green text on hover */
+}
   
   .nav-links.active {
     height: 100vh;
