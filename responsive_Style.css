@@ -277,6 +277,62 @@
       footer{
         margin-top: 2rem;
       }
-@media(max-width:369){
-    
+@media (max-width: 360px) {
+  .product-card img {
+    height: 200px;
+    width: 200px;
+    margin-left: 4.232rem;
+    margin-bottom: 2rem;
+  }
+  .testimonial .testimonialCarousel {
+    padding: 20px 20px 0 0;
+  }
+  .testimonial .carousel-control-prev-icon {
+    background-color: #e2623b;
+    border-radius: 50%;
+    padding: 2rem;
+    display: none;
+  }
+  .testimonial .carousel-control-next-icon {
+    background-color: #e2623b;
+    border-radius: 50%;
+    padding: 2rem;
+    display: none;
+  }
+  .testimonial-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    min-height: 60vh;
+  }
+  .testimonial-section h2 {
+    font-family: "Cursive", sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .testimonial-section p {
+    font-size: 15px;
+    margin-bottom: 3rem;
+  }
+  .testimonial-section .author {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .testimonial-section .quote-icon {
+    font-size: 24px;
+    color: #ff6600;
+  }
+  .testimonial-section .carousel-indicators [data-bs-target] {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .carousel-inner .carousel-item img {
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    width: 80px; /* Set your desired width */
+    height: 60px; /* Set the same height for a perfect circle */
+    border-radius: 50%; /* This creates the circular shape */
+    overflow: hidden; /* Ensures the image fits within the circle */
+    object-fit: cover; /* Ensures the image covers the circle evenly */
+    border: 5px solid orange;
+  }
 }
