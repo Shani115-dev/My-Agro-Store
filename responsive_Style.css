@@ -335,4 +335,7 @@
     object-fit: cover; /* Ensures the image covers the circle evenly */
     border: 5px solid orange;
   }
+     .header_wrapper .btn{
+    padding: 3px 8px 3px 8px;
+  }
 }
