@@ -68,6 +68,15 @@
   .nav-links {
     display: flex;
   }
+  .testimonial-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    min-height: 50vh;
+  }
+  .form_wrapper .form_title {
+    margin-top: -1rem;
+  }
 }
 
 /* Mobile & Tablet View */
@@ -133,9 +142,9 @@
     display: flex; /* Show when the hamburger is clicked */
     animation: fadeIn 0.3s ease-in-out;
   }
-  .gallery_wrapper .row img{
-   height: 200px;
-   width:256px;
+  .gallery_wrapper .row img {
+    height: 200px;
+    width: 256px;
     margin-top: 2.4rem;
     margin-left: 6rem;
   }
@@ -185,7 +194,7 @@
   }
 }
 @media (max-width: 576px) {
-  .header_wrapper .btn{
+  .header_wrapper .btn {
     padding: 3px 8px 3px 8px;
   }
   .header_wrapper .log {
@@ -284,16 +293,16 @@
   footer {
     margin-top: 2rem;
   }
-  .header_wrapper .btn{
+  .header_wrapper .btn {
     padding: 3px 8px 3px 8px;
   }
-  
-  .gallery_wrapper .row img{
+
+  .gallery_wrapper .row img {
     height: 200px;
-    width:256px;
-     margin-top: 2.4rem;
-     margin-left: 4rem;
-   }
+    width: 256px;
+    margin-top: 2.4rem;
+    margin-left: 4.5rem;
+  }
 }
 @media (max-width: 360px) {
   .product-card img {
@@ -353,14 +362,13 @@
     object-fit: cover; /* Ensures the image covers the circle evenly */
     border: 5px solid orange;
   }
-  .header_wrapper .btn{
+  .header_wrapper .btn {
     padding: 3px 8px 3px 8px;
   }
-   .gallery_wrapper .row img{
+  .gallery_wrapper .row img {
     height: 200px;
-    width:256px;
-     margin-top: 2.4rem;
-     margin-left: 3.5rem;
-   }
-
+    width: 256px;
+    margin-top: 2.4rem;
+    margin-left: 3rem;
+  }
 }
